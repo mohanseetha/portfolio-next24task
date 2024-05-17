@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  </body>
+    <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand ms-3" href="#">Mohan</a>
+        <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonals">Testimonals</a></li>
+                <li class="nav-item me-3"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>   
+        </div>
+    </nav>
+    </div>
+    <div class="body">
+      <h2 id="about" class="ms-5 mt-2">About Me</h2>
+      <div class="about"></div>
+      <h2 class="text-center mb-3" id="skills">Skills</h2>
+      <div class="container text-center">
+        <div class="d-flex justify-content-around mb-4">
+            <div class="container shadow-lg bg-light rounded" id="skill">
+                <img src="./images/html.png" id="myskill">
+                <h3>HTML</h3>
+                <p>2+ Years</p>
+            </div>
+            <div class="container shadow-lg bg-light rounded" id="skill">
+                <img src="./images/css.png" id="myskill">
+                <h3>CSS</h3>
+                <p>2+ Years</p>
+            </div>
+            <div class="container-sm shadow-lg bg-light rounded" id="skill">
+                <img src="./images/python.png" id="myskill">
+                <h3>Python</h3>
+                <p>2+Years</p>
+            </div>
+            </div>
+            <div class="d-flex justify-content-around mb-4">
+                <div class="container-sm shadow-lg bg-light rounded" id="skill">
+                    <img src="./images/js.png" id="myskill">
+                    <h3>JavaScript</h3>
+                    <p>2+Years</p>
+                </div>
+                <div class="container-sm shadow-lg bg-light rounded" id="skill">
+                    <img src="./images/react.png" id="myskill">
+                    <h3>React</h3>
+                    <p>1+ Years</p>
+                </div>
+                <div class="container shadow-lg bg-light rounded" id="skill">
+                    <img src="./images/node.png" id="myskill">
+                    <h3>Node JS</h3>
+                    <p>1+ Years</p>
+                </div>
+            </div>
+            <div class="d-flex mb-5">
+                <div class="container shadow-lg bg-light rounded" id="skill">
+                    <img src="./images/ml.png" id="myskill">
+                    <h3>Machine Learning</h3>
+                    <p>1+Years</p>
+                </div>
+                <div class="container shadow-lg bg-light rounded" id="skill">
+                    <img src="./images/mongo.png" id="myskill">
+                    <h3>Mongo DB</h3>
+                    <p>1+Years</p>
+                </div>
+                <div class="container shadow-lg bg-light rounded" id="skill">
+                    <img src="./images/es.png" id="myskill">
+                    <h3>Express JS</h3>
+                    <p>1+Years</p>
+                </div>
+            </div>
+        </div>
+      <h2 id="works" class="mb-3 ms-5">Works</h2>
+      <div class="works d-flex flex-column mb-4">
+        <div class="card mb-3 shadow-lg bg-light rounded ms-5 me-5" id="work">
+            <div class="row g-0">
+                <div class="col-md-5">
+                    <img src="./images/grocery.jpeg" class="img-fluid rounded">
+                </div>
+                    <div class="col-md-6">
+                        <h3 class="card-title ms-4 mt-4">Grocery Store Website</h3>
+                        <p class="card-text ms-4">Developing a grocery store website with ReactJS, Redux, MongoDB, ExpressJS, NextJS, NodeJS, and Apollo creates a robust, dynamic shopping experience. ReactJS and Redux ensure a responsive UI and efficient state management, while NextJS enhances performance with server-side rendering. NodeJS and ExpressJS provide a scalable backend, and MongoDB handles flexible data storage. Apollo manages GraphQL queries for efficient data fetching. This tech stack supports features like user authentication, product browsing, cart management, and order tracking, delivering a comprehensive and user-friendly grocery shopping platform.</p>
+                        <h5 class="card-title ms-4">Tools:</h5>
+                        <p class="card-text ms-4">ReactJS, Redux, MongoDB, ExpressJS, NextJS, NodeJS, Apollo</p>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 shadow-lg bg-light rounded ms-5 me-5" id="work">
+            <div class="row g-0">
+                <div class="col-md-5">
+                    <img src="./images/food.png" class="img-fluid rounded">
+                </div>
+                    <div class="col-md-6">
+                        <h3 class="card-title ms-4 mt-4">Food Delivery Website</h3>
+                        <p class="card-text ms-4">Developing a food delivery website with ReactJS, Redux, MongoDB, ExpressJS, NodeJS, and Firebase creates a feature-rich platform. ReactJS and Redux ensure a dynamic UI and smooth state management. NodeJS and ExpressJS provide a robust backend, while MongoDB handles scalable data storage. Firebase adds real-time database capabilities, authentication, and push notifications. Key features include user authentication, restaurant browsing, menu displays, order placement, real-time order tracking, and secure payments, delivering a comprehensive and user-friendly food delivery service.</p>
+                        <h5 class="card-title ms-4">Tools:</h5>
+                        <p class="card-text ms-4">ReactJS, Redux, MongoDB, ExpressJS, NodeJS, Firebase</p>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 shadow-lg bg-light rounded ms-5 me-5" id="work">
+            <div class="row g-0">
+                <div class="col-md-5">
+                    <img src="./images/movie.jpeg" class="img-fluid rounded">
+                </div>
+                    <div class="col-md-6">
+                        <h3 class="card-title ms-4 mt-4">Movie Ticket Booking Website</h3>
+                        <p class="card-text ms-4">Developing a movie ticket booking website with ReactJS, Redux, MongoDB, ExpressJS, NextJS, and NodeJS ensures a dynamic, efficient platform. ReactJS and Redux provide a responsive UI and seamless state management, while NextJS enhances performance with server-side rendering. NodeJS and ExpressJS offer a robust backend, and MongoDB handles scalable data storage. Features include user authentication, movie browsing, showtime selection, seat reservation, secure payments, and booking history, delivering a comprehensive and user-friendly ticket booking service.</p>
+                        <h5 class="card-title ms-4">Tools:</h5>
+                        <p class="card-text ms-4">ReactJS, Redux, MongoDB, ExpressJS, NextJS, NodeJS</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <h2 id="testimonals" class="text-center mb-3">Testimonals</h2>
+      <div class="testimonals d-flex mb-4">
+        <div class="container shadow-lg bg-light rounded" id="review">
+            <h3 class="text-center mt-2">by John Doe</h3>
+            <p>"Mohan developed an exceptional grocery store website. The site features a responsive and user-friendly interface, seamless product browsing, cart management, and secure payment processing. Mohan's expertise ensured excellent performance and scalability. We highly recommend his work for any web development project."</p>
+        </div>
+        <div class="container shadow-lg bg-light rounded" id="review">
+            <h3 class="text-center mt-2">by George Miller</h3>
+            <p>"Mohan developed an outstanding food delivery website for us. The responsive and intuitive user interface makes browsing and ordering effortless. Real-time order tracking and notifications have greatly enhanced our customer experience. Mohan's expertise ensured robust performance and scalability, and we highly recommend his work for any web development project."</p>
+        </div>
+        <div class="container shadow-lg bg-light rounded" id="review">
+            <h3 class="text-center mt-2">by Steven Spielberg </h3>
+            <p>Mohan created an outstanding movie ticket booking website. The platform offers a smooth user experience with features like movie browsing, showtime selection, seat reservation, and secure payments. Mohan's skill in integrating these technologies resulted in a robust and scalable solution. We highly recommend his services for web development projects."</p>
+        </div>
+      </div>
+      <form class="input-group mb-3">
+        <label for="basic-url"><h4 class="ms-5">Leave a testimonal:</h4></label>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control shadow-md bg-light rounded ms-5" id="basic-url" aria-describedby="basic-addon3">
+            <button class="btn btn-dark me-5">Submit</button>
+        </div>
+      </form>
+      <h2 id="contact" class="text-center">Contact Me</h2>
+      <div class="contact text-center mb-3">
+        <p>mail: mohan@mymail.com</p>
+        <p>mobile: 040 987-654-321</p>
+        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="footer text-center">
+      <p>Thanks for visiting 👍🏻</p>
+    </div>
+  </body>
+</html>
